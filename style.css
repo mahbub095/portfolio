@@ -1,12 +1,15 @@
 body{
-	margin:0;
+    margin:0;
+    font-family: 'Lora', serif;
 }
 
 h1{
-	font-size: 50px;
+	font-size: 30px;
 }
-.orange-highlight{
-	color:orange;
+.me-highlight{
+    color:#E35059;
+    font-size: 30px;
+    font-weight: 700;
 
 }
 .half-width{
@@ -24,26 +27,77 @@ section{
     padding-bottom: 150px;
 }
 .top-banner{
-	background-image:url("images/top-banner.png");
+    padding: 95px;
+	background-image:url("images/top-banner2.png");
 }
 .link-button{
-	text-decoration: none;
-	background-image: linear-gradient(45deg,lightSalmon,tomato);
-	padding: 10px 20px;
+    text-decoration: none;
+    /* background-image: linear-gradient(45deg,lightSalmon,tomato); */
+    background-color: #E35059;
+	padding: 10px 40px;
 	border-radius: 5px;
 	color :white;
 	font-weight: 700;
 }
-.dream-area{
-    background-image: url("images/dream-bg.png");
+.biograpy-area{
+    background-image: url("images/biography-bg.png");
     background-repeat: no-repeat;
     background-position: right;
 }
+.lastedworkheading{
+    margin: 80px;
+    text-align: center;
+    padding-top: 20px;
+}
+.lasted-workimg{
+ 
+    padding: 20px 10px 20px 40px;
+      
+}
+.half-msarea{
+    margin: auto;
+    width: 60%;
+    border: 3px solid #E35059;
+    padding: 10px;
+}
+
 .single-experience{
     box-shadow: 10px 10px 40px gray;
     border-radius: 5px;
     height: 80%;
     background-color: white;
+}
+.client-area{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.clienttext{
+    text-align: center;
+}
+.h4client{
+    padding-top: 60px;
+    
+}
+.h5client{
+    font-weight: 400;
+ 
+}
+.messagesection{
+     
+    border-radius: 5px;
+    height: 20%;
+    weight:20%;
+    background-color: #E35059;
+}
+.msgarea{
+    padding: 45px 45px 45px 45px;
+    border-radius: 5px;
+    background-color: #E35059;;
+}
+a:-webkit-any-link {
+    color: white;
 }
 .experience-area{
     background-image: url("images/exp-bg.png");
